@@ -12,7 +12,7 @@ var filesToCache = [
 self.addEventListener('install', (event) => {
     event.waitUntil((async () => {
           try {
-            const cache = await caches.open('v1');
+            const cache = await caches.open(cacheName);
             return cache.addAll(filesToCache);
           } catch (e) {
             console.log(e.message);
