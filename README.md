@@ -1,7 +1,7 @@
 # Screenshots of icon and app working offline
 
 icon:
-![alt text]('../images/icon.png')
+![alt text](https://github.com/Rikotee/week5-hello-pwa/blob/main/images/icon.jpg)
 
 offline:
-![alt text]('../images/offline.png')
+![alt text](https://github.com/Rikotee/week5-hello-pwa/blob/main/images/offline.jpg)
