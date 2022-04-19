@@ -1,4 +1,5 @@
-https://users.metropolia.fi/~teemutr/Hello-PWA/
+[Working app](https://users.metropolia.fi/~teemutr/Hello-PWA/)
+
 
 # Screenshots of icon and app working offline
 
