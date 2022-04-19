@@ -9,27 +9,28 @@
 
 body {
   font-family: 'latoblack';
-  
-  }
+  background-image: url('../images/testImg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 
-  /* Make content area fill the entire browser window */
-  html,
-  .fullscreen {
-    display: flex;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-  
-  /* Center the content in the browser window */
-  .container {
-    margin: auto;
-    text-align: center;
-    background-image: url("../images/testImg.png");
-  }
-  
-  .title {
-    font-size: 3rem;
-  }
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}
